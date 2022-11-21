@@ -113,12 +113,24 @@ namespace Exercise_3
                             break;
                         case '3':
                             {
-                                obj.FirstNode()
+                                obj.FirstNode();
+                            }
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid option");
+                                break;
                             }
                     }
-                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
                 }
             }
         }
     }
+}
 
