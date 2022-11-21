@@ -64,24 +64,19 @@ namespace Exercise_3
         public void FirstNode()
         {
             if (listEmpty())
+                Console.WriteLine("\nList is empty");
+            else
+                Console.WriteLine("\nThe first record in the list is:\n\n " + LAST.next.rollNumber + "    " + LAST.next.name);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-        internal class Program
+        
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
+            CircularList obj = new CircularList();
+            while (true)
             {
+
+            }
             }
         }
     }
-}
+
