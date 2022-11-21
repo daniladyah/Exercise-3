@@ -89,9 +89,28 @@ namespace Exercise_3
                             {
                                 obj.traverse();
                             }
+                            break;
+                        case '2':
+                            {
+                                if (obj.listEmpty() == true);
+                                {
+                                    Console.WriteLine("\nList is Empty");
+                                    break;
+                                }
+                                Node prev, curr;
+                                prev = curr = null;
+                                Console.Write("\nEnter the rol number of the student whoses record is to be searched:");
+                                int num = Convert.ToInt32(Console.ReadLine());
+                                if (obj.Search(num, ref prev, ref curr) == false)
+                                    Console.WriteLine("\nRecord not found");
+                                else
+                                {
+
+                                }
+                            }
+                        }
                     }
                 }
-            }
             }
         }
     }
