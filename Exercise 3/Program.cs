@@ -105,10 +105,17 @@ namespace Exercise_3
                                     Console.WriteLine("\nRecord not found");
                                 else
                                 {
-
+                                    Console.WriteLine("\nRecord found");
+                                    Console.WriteLine("\nRoll number" + curr.rollNumber);
+                                    Console.WriteLine("\nName:" + curr.name);
                                 }
                             }
-                        }
+                            break;
+                        case '3':
+                            {
+                                obj.FirstNode()
+                            }
+                    }
                     }
                 }
             }
